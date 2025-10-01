@@ -71,6 +71,8 @@ Download NSARM, VAE and T5.
 
 [Baidu Drive]().    Key: 
 
+Currently, there are some permission issues with the weight files upload. We will complete the upload as soon as possible.
+
 #### Setp 2 Edit the test script
 
 Edit the file `NSARM/scripts/infer.sh`. 
@@ -91,33 +93,8 @@ bash scripts/infer.sh
 ```
 The results will be put in your `--save_dir `.
 
-## :star: Train Stage 1
+#### The training code will be released after paper submission.
 
-#### Step1: Prepare the training data
-
-Prepare images with the size of 1024x1024, edit the image path and caption refer to `NSARM/data/train/path_caption_example.jsonl`.
-Note that, change the filename to `1.000_number.jsonl`, `1.000` is the rate of length and width, number is the cout of images.
-
-#### Step2: Edit the train script
-
-Edit the file `NSARM/scripts/train_stage1.sh`, mainly including:
-```
-SINGLE=1 # SINGLE=1 means using 1 node with 8 GPUs, annotating this line means using all nodes with 8GPUs per nodes.
-exp_name=
-data_path=  # the folder which contains path_caption_example.jsonl
---t5_path=
---vae_ckpt= 
---rush_resume=/home/notebook/data/group/kxt/Infinity/weights/INF_8B_original.pth 
-```
-
-#### Step3: Run the command
-
-```
-cd NSARM
-bash scripts/train_stage1.sh
-```
-
-## :star: Train Stage 2
 
 ## ❤️ Acknowledgments
 This project is based on [BasicSR](https://github.com/XPixelGroup/BasicSR) and  [Infinity](https://github.com/FoundationVision/Infinity).
