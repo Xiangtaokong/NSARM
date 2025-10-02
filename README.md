@@ -1,7 +1,7 @@
 # NSARM
 NSARM: Next-Scale Autoregressive Modeling for Robust Real-World Image Super-Resolution
 
-<a href='https://arxiv.org/abs/2510.00820'><img src='https://img.shields.io/badge/arXiv-2401.03379-b31b1b.svg'></a> &nbsp;&nbsp;
+<a href='https://arxiv.org/abs/2510.00820'><img src='https://img.shields.io/badge/arXiv-2510.00820-b31b1b.svg'></a> &nbsp;&nbsp;
 
 Authors: [Xiangtao Kong](https://scholar.google.com/citations?hl=en&user=lueNzSgAAAAJ), [Rongyuan Wu](https://scholar.google.com/citations?user=A-U8zE8AAAAJ&hl=en&oi=ao), [Shuaizheng Liu](https://scholar.google.com/citations?hl=en&user=ZCDjTn8AAAAJ), [Lingchen Sun](https://scholar.google.com/citations?hl=en&user=wzdCc-QAAAAJ), and [Lei Zhang](https://scholar.google.com/citations?user=tAK5l1IAAAAJ&hl=en&oi=ao)
 
