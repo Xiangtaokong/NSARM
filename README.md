@@ -118,7 +118,12 @@ If our code helps your research or work, please consider citing our paper.
 The following are BibTeX references:
 
 ```
-
+@article{kong2025nsarm,
+  title={NSARM: Next-Scale Autoregressive Modeling for Robust Real-World Image Super-Resolution},
+  author={Kong, Xiangtao and Wu, Rongyuan and Liu, Shuaizheng and Sun, Lingchen and Zhang, Lei},
+  journal={arXiv preprint arXiv:2510.00820},
+  year={2025}
+}
 ```
 
 ## 🎫 License
