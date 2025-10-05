@@ -68,13 +68,21 @@ OR refer to the environment of [BasicSR](https://github.com/XPixelGroup/BasicSR)
 
 #### Setp 1 Download the pre-trained models
 
-Download NSARM, VAE and T5.
+Download pretrained [VAE](https://huggingface.co/FoundationVision/Infinity/blob/main/infinity_vae_d56_f8_14_patchify.pth) and [T5](https://huggingface.co/google/flan-t5-xl/tree/main).
 
-[One Drive]()
+Download NSARM: [Baidu Drive](https://pan.baidu.com/s/17cs6Tu0t_ud4lQX-SfgMHw?pwd=eqhc).    Key: eqhc
 
-[Baidu Drive]().    Key: 
+Use the following command to obtain the model and verify its completeness.
 
-Currently, there are some permission issues with the weight files upload. We will complete the upload as soon as possible.
+```
+cat NSARM_part_* > NSARM.pth
+
+md5sum NSARM.pth
+
+the md5 output should be: 16905db52d64fd44c365b6a963a6598d *NSARM.pth
+```
+
+Currently, there are some permission issues with the weight files upload. We will complete the uploading of Google Drive and Huggingface as soon as possible.
 
 #### Setp 2 Edit the test script
 
@@ -82,9 +90,9 @@ Edit the file `NSARM/scripts/infer.sh`.
 
 Please modify the path of your model and data, mainly including:
 ```
-infinity_model_path=
-vae_path=
-text_encoder_ckpt=
+infinity_model_path= NSARM.pth
+vae_path= VAE path
+text_encoder_ckpt= T5 path
 --input_info 
 --save_dir 
 ```
