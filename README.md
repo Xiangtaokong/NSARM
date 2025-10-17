@@ -74,7 +74,7 @@ Download NSARM:
 
 [Baidu Drive](https://pan.baidu.com/s/17cs6Tu0t_ud4lQX-SfgMHw?pwd=eqhc).    Key: eqhc
 
-[Google Drive](https://drive.google.com/drive/folders/1AFTGsTjvvaQvjzlG7x606tFJdmi-9n_4?usp=sharing).
+[Google Drive](https://drive.google.com/drive/folders/1AFTGsTjvvaQvjzlG7x606tFJdmi-9n_4?usp=sharing). (for complete version)
 
 Use the following command to obtain the model and verify its completeness.
 
