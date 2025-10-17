@@ -40,15 +40,12 @@ Most recent real-world image super-resolution (Real-ISR) methods employ pre-trai
 
 ![Demo Image](https://github.com/Xiangtaokong/NSARM/blob/main/readme_img/visual_01.png)
 
-<details>
-  <summary>Click here to show more visual results.</summary>
   
 ![Demo Image](https://github.com/Xiangtaokong/NSARM/blob/main/readme_img/morevisual1_01.png)
 ![Demo Image](https://github.com/Xiangtaokong/NSARM/blob/main/readme_img/morevisual2_01.png)
 ![Demo Image](https://github.com/Xiangtaokong/NSARM/blob/main/readme_img/morevisual3_01.png)
 ![Demo Image](https://github.com/Xiangtaokong/NSARM/blob/main/readme_img/morevisual4_01.png)
 
-</details>
 
 
 ## ⚙️ Dependencies and Installation
